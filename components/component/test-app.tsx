@@ -167,7 +167,7 @@ export function testApp() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I'm always excited to discuss new game development opportunities. Feel free to reach out!
+                  ---------------
                 </p>
               </div>
               <div className="mx-auto w-full max-w-sm space-y-2">
