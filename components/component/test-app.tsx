@@ -21,6 +21,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { JSX, SVGProps } from "react"
 
 export function testApp() {
   return (
@@ -28,7 +29,7 @@ export function testApp() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <CodeIcon className="h-6 w-6" />
-          <span className="sr-only">Jane Doe's Portfolio</span>
+          <span className="sr-only">유민협의 포트폴리오</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
@@ -198,7 +199,7 @@ export function testApp() {
   )
 }
 
-function CodeIcon(props) {
+function CodeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -219,7 +220,7 @@ function CodeIcon(props) {
 }
 
 
-function CylinderIcon(props) {
+function CylinderIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -240,7 +241,7 @@ function CylinderIcon(props) {
 }
 
 
-function GamepadIcon(props) {
+function GamepadIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -264,7 +265,7 @@ function GamepadIcon(props) {
 }
 
 
-function ImageIcon(props) {
+function ImageIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -286,7 +287,7 @@ function ImageIcon(props) {
 }
 
 
-function NetworkIcon(props) {
+function NetworkIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
